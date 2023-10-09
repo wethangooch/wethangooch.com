@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+	body {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+	
+	h1,h2,h3 {
+		font-size: 1.5rem;
+	}
+}
+
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 100px;
+    background-color: #f9f9ff;
+}
+
+.header-content h1 {
+	font-size: 30px;
+	
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content img {
+	height: auto;
+	max-height: 300px;
+	margin-top: 20px;
+}
+
+
+
+/* Style the about section */
+.about-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.about-content h2{
+	margin-bottom: 30px;
+}
+
+.about-content p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.625em;
+	color: #777777;
+}
+
+/* Style the projects section */
+#projects {
+    text-align: center; /* Center-align the text within the projects section */
+}
+
+
+/* Style the projects section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+	justify-content: center; /* Center the grid horizontally */
+
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%;
+
+}
+
+/* Add more CSS styles as needed */
